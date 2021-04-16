@@ -1,5 +1,6 @@
 import Nav from '../components/nav';
 import About from '../components/about';
+import Footer from '../components/footer';
 
 function App() {
   return (
@@ -7,7 +8,9 @@ function App() {
       <Nav />
       <div className="content">
       <About />
+      <Footer />
       </div>
+      
     </div>
   );
 }

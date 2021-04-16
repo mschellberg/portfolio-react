@@ -35,7 +35,12 @@ nav .links {
 nav .links a:hover {
   border-bottom: 1px black solid;
 }
+.aboutMeContainer {
+  position: relative;
+}
 .aboutMe {
+  position: absolute;
+  top: 100%;
   margin-top: 5%;
   margin-right:35%;
   margin-left: 35%;
@@ -52,6 +57,10 @@ nav .links a:hover {
   margin-top: 5%;
   display: flex;
   justify-content: center;
+}
+
+.footer {
+  margin-top: 5%;
 }
 @media all and (max-width: 768px) {
   
