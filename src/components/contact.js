@@ -1,20 +1,32 @@
 import React from 'react';
-import Nav from './nav';
+import emailjs from 'emailjs-com';
 
-function Contact () {
-    return (
-        <div>
-            <div className="navbar">
-                <Nav/>
-            </div>
-            <div className="contactme">
-            <h1>This is my contact page</h1>
-            <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
-        </div>
-        </div>
-    );
+
+export default function Contact() {
+
+  function sendEmail(e) {
+    e.preventDefault();
+    
+
+    emailjs.sendForm('service_7lv83k2', 'mel', e.target, 'user_JjiWs120W4KqeGzu0JcW7')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
+
+  return (
+    <form className="contact-form" onSubmit={sendEmail}>
+      <h1>Contact Me</h1><br></br>
+      <input type="hidden" name="contact_number" />
+      <label>Name: </label>
+      <input type="text" name="user_name" /><br></br>
+      <label>Email:</label>
+      <input type="email" name="user_email" /><br></br>
+      <label>Message:</label>
+      <textarea name="message" /><br></br>
+      <input type="submit" value="Send" />
+    </form>
+  );
 }
-
-export default Contact;

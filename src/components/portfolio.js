@@ -1,19 +1,54 @@
 import React from 'react';
-import Nav from './nav';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
 
 function Portfolio () {
     return (
-        <div>
-            <div className="navbar">
-                <Nav/>
-            </div>
-            <div className="portfolio">
-            <h1>This is the portfolio page</h1>
-            <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
+        <div className=" justify-content-center">
+            <Row className="row-1">
+                <Col md-4>
+                    <div className="card-body">
+                    <img src="https://complianz.io/wp-content/uploads/2019/03/placeholder-300x202.jpg"></img>
+                        <h4 className="card-title">Card Title</h4>
+                        <p className="card-text-summary">Description of my project</p>
+                        <a href="#" className="btn-btn-online-success">Go anywhere</a>
+                    </div>
+                </Col>
+                <Col md-4>
+                    <div className="card-body">
+                        <img src="https://complianz.io/wp-content/uploads/2019/03/placeholder-300x202.jpg"></img>
+                        <h4 className="card-title">Card Title</h4>
+                        <p className="card-text-summary">Description of my project</p>
+                        <a href="#" className="btn-btn-online-success">Go anywhere</a>
+                    </div>
+                </Col>
+                </Row>
+                <Row className="row-2">
+                <Col md-4>
+                    <div className="card-body">
+                    <img src="https://complianz.io/wp-content/uploads/2019/03/placeholder-300x202.jpg"></img>
+                        <h4 className="card-title">Card Title</h4>
+                        <p className="card-text-summary">Description of my project</p>
+                        <a href="#" className="btn-btn-online-success">Go anywhere</a>
+                    </div>
+                </Col>
+                <Col md-4>
+                    <div className="card-body">
+                        <img src="https://complianz.io/wp-content/uploads/2019/03/placeholder-300x202.jpg"></img>
+                        <h4 className="card-title">Card Title</h4>
+                        <p className="card-text-summary">Description of my project</p>
+                        <a href="#" className="btn-btn-online-success">Go anywhere</a>
+                    </div>
+                </Col>
+                </Row>
+                
+        
+     
+
+        
         </div>
-        </div>
+      
     );
 }
 

@@ -1,11 +1,9 @@
 import React from 'react';
-import Nav from './nav';
 
 function Resume () {
     return (
         <div>
             <div className="navbar">
-                <Nav/>
             </div>
             <div className="resume">
             <h1>This is the resume page</h1>
