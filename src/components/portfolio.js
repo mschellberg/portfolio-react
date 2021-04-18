@@ -1,54 +1,84 @@
 import React from 'react';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-
+import { CardColumns,Card, Button, Img, Body, Title } from 'react-bootstrap';
+import Img1 from '../img/weather.png';
+import Img2 from '../img/workday.png';
+import Img3 from '../img/team-profile.png';
+import Img4 from '../img/note-taker.png';
+import Img5 from '../img/tic-tac.png';
+import Img6 from '../img/password-gen.png';
 
 function Portfolio () {
     return (
-        <div className=" justify-content-center">
-            <Row className="row-1">
-                <Col md-4>
-                    <div className="card-body">
-                    <img src="https://complianz.io/wp-content/uploads/2019/03/placeholder-300x202.jpg"></img>
-                        <h4 className="card-title">Card Title</h4>
-                        <p className="card-text-summary">Description of my project</p>
-                        <a href="#" className="btn-btn-online-success">Go anywhere</a>
-                    </div>
-                </Col>
-                <Col md-4>
-                    <div className="card-body">
-                        <img src="https://complianz.io/wp-content/uploads/2019/03/placeholder-300x202.jpg"></img>
-                        <h4 className="card-title">Card Title</h4>
-                        <p className="card-text-summary">Description of my project</p>
-                        <a href="#" className="btn-btn-online-success">Go anywhere</a>
-                    </div>
-                </Col>
-                </Row>
-                <Row className="row-2">
-                <Col md-4>
-                    <div className="card-body">
-                    <img src="https://complianz.io/wp-content/uploads/2019/03/placeholder-300x202.jpg"></img>
-                        <h4 className="card-title">Card Title</h4>
-                        <p className="card-text-summary">Description of my project</p>
-                        <a href="#" className="btn-btn-online-success">Go anywhere</a>
-                    </div>
-                </Col>
-                <Col md-4>
-                    <div className="card-body">
-                        <img src="https://complianz.io/wp-content/uploads/2019/03/placeholder-300x202.jpg"></img>
-                        <h4 className="card-title">Card Title</h4>
-                        <p className="card-text-summary">Description of my project</p>
-                        <a href="#" className="btn-btn-online-success">Go anywhere</a>
-                    </div>
-                </Col>
-                </Row>
-                
-        
-     
+        <CardColumns className="portfolio-cards">
+            <Card style={{ width: '18rem' }}>
+    <Card.Img  variant="top" src={Img1} />
+    <Card.Body>
+      <Card.Title>Weather Dashboard</Card.Title>
+      <Card.Text>
+        Description of the project
+      </Card.Text>
+      <a href="https://mschellberg.github.io/weather-dashboard/">View Project</a><br></br>
+      <a href="https://github.com/mschellberg/weather-dashboard">Github</a>
+    </Card.Body>
+  </Card>
+  <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src={Img4} />
+    <Card.Body>
+      <Card.Title>Note Taker</Card.Title>
+      <Card.Text>
+      Description of the project
+      </Card.Text>
+      <a href="https://week-11-note-taker-express.herokuapp.com/notes">View Project</a><br></br>
+      <a href="https://github.com/mschellberg/note-taker">Github</a>
+    </Card.Body>
+  </Card>
+  <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src={Img2} />
+    <Card.Body>
+      <Card.Title>Work Day Planner</Card.Title>
+      <Card.Text>
+      Description of the project
+      </Card.Text>
+      <a href="https://mschellberg.github.io/workday/">View Project</a><br></br>
+      <a href="https://github.com/mschellberg/workday">Github</a>
+    </Card.Body>
+  </Card>
+  <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src={Img5} />
+    <Card.Body>
+      <Card.Title>Tic Tac Woah</Card.Title>
+      <Card.Text>
+      Description of the project
+      </Card.Text>
+      <a href="https://tic-tac-toe-project-two.herokuapp.com/">View Project</a><br></br>
+      <a href="https://github.com/mschellberg/tic-tac-whoa">Github</a>
+    </Card.Body>
+  </Card>
+  <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src={Img3} />
+    <Card.Body>
+      <Card.Title>Team Profile Generator</Card.Title>
+      <Card.Text>
+      Description of the project
+      </Card.Text>
+      <a href="https://mschellberg.github.io/team-profile-generator/">View Project</a><br></br>
+      <a href="https://github.com/mschellberg/team-profile-generator">Github</a>
+    </Card.Body>
+  </Card>
+  <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src={Img6} />
+    <Card.Body>
+      <Card.Title>Password Generator</Card.Title>
+      <Card.Text>
+      Description of the project
+      </Card.Text>
+      <a href="https://mschellberg.github.io/passgen/">View Project</a><br></br>
+      <a href="https://github.com/mschellberg/mschellberg.github.io/tree/master/passgen">Github</a>
+    </Card.Body>
+  </Card>
+  
+        </CardColumns>
 
-        
-        </div>
-      
     );
 }
 
