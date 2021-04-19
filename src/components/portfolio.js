@@ -5,8 +5,7 @@ import Img2 from '../img/workday.png';
 import Img3 from '../img/team-profile.png';
 import Img4 from '../img/note-taker.png';
 import Img5 from '../img/tic-tac.png';
-import Img6 from '../img/password-gen.png';
-import Img7 from '../img/movie-queue.png';
+import Img6 from '../img/movie-queue.png';
 
 function Portfolio () {
     return (
@@ -67,9 +66,9 @@ function Portfolio () {
     </Card.Body>
   </Card>
   <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src={Img7} />
+    <Card.Img variant="top" src={Img6} />
     <Card.Body>
-      <Card.Title>Password Generator</Card.Title>
+      <Card.Title>My Movie Queue</Card.Title>
       <Card.Text>
       Description of the project
       </Card.Text>
