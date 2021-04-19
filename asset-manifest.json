@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.9ddb10c5.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.13302921.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.13302921.chunk.js.map",
+    "main.js": "/portfolio-react/static/js/main.f116e490.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.f116e490.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.18b6f496.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.18b6f496.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/portfolio-react/static/css/2.4c97ca4f.chunk.css",
@@ -12,6 +12,7 @@
     "static/css/2.4c97ca4f.chunk.css.map": "/portfolio-react/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.9ddb10c5.chunk.css.map": "/portfolio-react/static/css/main.9ddb10c5.chunk.css.map",
     "static/js/2.6ed9f921.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.6ed9f921.chunk.js.LICENSE.txt",
+    "static/media/movie-queue.f9802461.png": "/portfolio-react/static/media/movie-queue.f9802461.png",
     "static/media/note-taker.c89083e5.png": "/portfolio-react/static/media/note-taker.c89083e5.png",
     "static/media/password-gen.54de7456.png": "/portfolio-react/static/media/password-gen.54de7456.png",
     "static/media/team-profile.3699c936.png": "/portfolio-react/static/media/team-profile.3699c936.png",
@@ -24,6 +25,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.6ed9f921.chunk.js",
     "static/css/main.9ddb10c5.chunk.css",
-    "static/js/main.13302921.chunk.js"
+    "static/js/main.f116e490.chunk.js"
   ]
 }
