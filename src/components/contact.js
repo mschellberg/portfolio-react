@@ -1,32 +1,28 @@
 import React from 'react';
-import emailjs from 'emailjs-com';
+import { Button } from 'react-bootstrap';
 
 
-export default function Contact() {
-
-  function sendEmail(e) {
-    e.preventDefault();
-    
-
-    emailjs.sendForm('service_7lv83k2', 'mel', e.target, 'user_JjiWs120W4KqeGzu0JcW7')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  }
-
-  return (
-    <form className="contact-form" onSubmit={sendEmail}>
-      <h1>Contact Me</h1><br></br>
-      <input type="hidden" name="contact_number" />
-      <label>Name: </label>
-      <input type="text" name="user_name" /><br></br>
-      <label>Email:</label>
-      <input type="email" name="user_email" /><br></br>
-      <label>Message:</label>
-      <textarea name="message" /><br></br>
-      <input type="submit" value="Send" />
-    </form>
-  );
+function Contact(props) {
+  
+  return(
+    <div className="contact">
+      <form id="contact-form"  method="POST">
+      <h1 className="contact-title">Get in touch</h1>
+        <div className="form-group">
+          <label htmlFor="name">Name</label>
+          <input type="text" className="form-control" />
+        </div>
+        <div className="form-group">
+          <label htmlFor="email">Email</label>
+          <input type="email" className="form-control" />
+        </div>
+        <div className="form-group">
+          <lable htmlFor="message">Message</lable>
+          <textarea className="form-control" rows="5"></textarea>
+        </div>
+        <Button>Submit</Button>
+      </form>
+    </div>
+  )
 }
+export default Contact

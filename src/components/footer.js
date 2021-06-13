@@ -8,13 +8,10 @@ const Footer = () => {
     return (
         <footer >
             <Container fluid={true}>
-                <Row className="border-top justify-content-between p-4">
-                    <Col className="p-0">
-                        Created by Melanie Schellberg
-                    </Col>
+                <Row className="footer border-top justify-content-center p-4 bg-light">
                     <Col className="p=0 d-flex justify-content-end">
-                        <div className="github mr-4" ><a href="https://github.com/mschellberg"><FaGithub size="2em" /></a></div>
-                        <a href="https://www.linkedin.com/in/melanie-schellberg-738a2b1b7/"><FaLinkedin size="2em"/></a>
+                        <div className="github mr-4" ><a href="https://github.com/mschellberg"><FaGithub size="1.5em" /></a></div>
+                        <a href="https://www.linkedin.com/in/melanie-schellberg-738a2b1b7/"><FaLinkedin size="1.5em"/></a>
                     </Col>
                 </Row>
             </Container>

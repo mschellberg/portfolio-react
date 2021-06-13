@@ -1,16 +1,53 @@
-import React from 'react';
-
 function Resume () {
     return (
-        <div>
-            <div className="navbar">
-            </div>
-            <div className="resume">
-            <h1>This is the resume page</h1>
+            <div className="resume ">
+            <h1 className="resume-title">Education & Experience</h1>
+            <div className="row justify-content-center">
+            <div class="col-4">
+            <h3>Education</h3><br></br>
+            <h5>
+                Penn LPS Coding Bootcamp
+            </h5>
             <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                Full Stack Developer
             </p>
-        </div>
+            <p>
+                Philadelphia Pa
+            </p>
+            <p>
+                04/2021
+            </p>
+            <h5>
+                Montgomery County Community College
+            </h5>
+            <p>
+                Liberal Arts And General Studies Associates
+            </p>
+            <p>
+                Blue Bell Pa
+            </p>
+            <p>
+                05/2015
+            </p>
+            </div>
+            <div class="col-4">
+            <h3>Projects</h3><br></br>
+            <h5>
+            Workday Planner
+            </h5>
+            <p>A single page application to organize the standard business day. It is color coordinated to specify whether it is the past, present, or future. The events saved will be stored in local storage so when it is refreshed, it still persists. 
+            Tools used: html, css/bootstrap, jquery
+            </p>
+            <h5>Travel Buddy</h5>
+            <p>Interactive front end application used to compare different locations to generate a 5 day forecast along with local attractions through google maps.
+            Tools used: html, css/bulma, javascript (jquery)</p>
+            <h5>Tic Tac Whoa</h5>
+            <p>Invite your friends to play against and be able to view your wins/loses on the dashboard after signing in. 
+            Tools used: html, css/bootstrap, javascript (jquery and handlebars.js), socket.io,
+            mysql
+            </p>
+            </div>
+            </div>
         </div>
     );
 }
