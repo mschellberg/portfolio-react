@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mschellberg.github.io/portfolio-react/",
+  "homepage": "/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
     "bootstrap-icons": "^1.4.1",
+    "deploy-aws-s3-cloudfront": "^3.4.0",
     "emailjs-com": "^2.6.4",
     "jspdf": "^2.3.1",
     "react": "^17.0.2",
@@ -30,7 +31,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "awsdeploy": "deploy-aws-s3-cloudfront --bucket melanie-portfolio --react"
   },
   "eslintConfig": {
     "extends": [
