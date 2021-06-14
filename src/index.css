@@ -117,13 +117,17 @@ h3 {
     flex-direction: column;
     align-items: center;
     padding: 15px;
-    border: 1px solid black;
-    width: 40%;
     margin: auto;
+    background: linear-gradient(110deg, #ffd6cc 60%, #ffebe6 60%);
 }
-.form-group {
+.form-control {
+    background-color: #f2f2f2;
+}
+.form-container {
     margin: 10px;
-    width: 35%;
+    width: 40vw;
+    border-radius: 5px;
+    padding: 20px;
     
 }
 /* Resume */
