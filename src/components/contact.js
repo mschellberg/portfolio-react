@@ -8,19 +8,21 @@ function Contact(props) {
     <div className="contact">
       <form id="contact-form"  method="POST">
       <h1 className="contact-title">Get in touch</h1>
+      <div className="form-container">
         <div className="form-group">
-          <label htmlFor="name">Name</label>
-          <input type="text" className="form-control" />
+          <input type="text" placeholder="First name" className="form-control" />
         </div>
         <div className="form-group">
-          <label htmlFor="email">Email</label>
-          <input type="email" className="form-control" />
+          <input type="text" placeholder="Last name" className="form-control" />
         </div>
         <div className="form-group">
-          <lable htmlFor="message">Message</lable>
-          <textarea className="form-control" rows="5"></textarea>
+          <input type="email" placeholder="Email" className="form-control" />
         </div>
-        <Button>Submit</Button>
+        <div className="form-group">
+          <textarea className="form-control" placeholder="Message" rows="5"></textarea>
+        </div>
+        <Button>Send Message</Button>
+        </div>
       </form>
     </div>
   )

@@ -49,7 +49,7 @@ const Portfolio = () => {
             <Card.Img variant="top" src={process.env.PUBLIC_URL + project.image}  />
             <Card.Body>
               <Card.Title>{project.title}</Card.Title>
-              <div className="github m-0" ><a href={project.github} target="_blank"><FaGithub size="1em"  />{project.title}</a></div>
+              <div className="github m-0" ><a href={project.github} target="_blank"><FaGithub size="1em"  /></a></div>
             </Card.Body>
           </Card>
         )

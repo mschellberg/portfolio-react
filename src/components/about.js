@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from '../img/aboutme.png';
 import { Container, Row, Col } from 'react-bootstrap';
+import Img from '../img/aboutme.png'
 function About () {
     return (
         <div className='about-me-container'>
