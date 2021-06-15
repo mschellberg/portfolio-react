@@ -56,7 +56,11 @@ const Portfolio = () => {
     }
     return (
         <div className="portfolio-page" id="portfolio">
-            <h1>Recent Work</h1>
+            <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Recent Work</h1>
+        </div>
+        </div>
             <Col className="container-fluid mt-4" id="card-group">
             {portfolioProject.map(renderCard)}
             </Col>
