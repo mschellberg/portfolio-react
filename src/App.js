@@ -5,12 +5,12 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import About from './components/about';
 import Resume from './components/resume';
 import Nav from './components/Navbar';
-import Footer from './components/Footer';
+import Footer from './components/footer';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 
 class App extends Component {
-  
+
   render() {
     return (
           <Router>
@@ -23,9 +23,9 @@ class App extends Component {
                 <Route exact path="/contact" component={Contact} />
               </Switch>
               <Footer/>
-            
+
           </Router>
-        
+
     )
   }
 }
