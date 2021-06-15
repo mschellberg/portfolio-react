@@ -1,7 +1,11 @@
 function Resume () {
     return (
             <div className="resume ">
-            <h1 className="resume-title">Education & Experience</h1>
+            <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Education & Experience</h1>
+        </div>
+        </div>
             <div className="row justify-content-center">
             <div class="col-4">
             <h3>Education</h3><br></br>
@@ -12,7 +16,7 @@ function Resume () {
                 Full Stack Developer
             </p>
             <p>
-                Philadelphia Pa
+                Philadelphia, PA
             </p>
             <p>
                 04/2021
@@ -24,7 +28,7 @@ function Resume () {
                 Liberal Arts And General Studies Associates
             </p>
             <p>
-                Blue Bell Pa
+                Blue Bell, PA
             </p>
             <p>
                 05/2015
