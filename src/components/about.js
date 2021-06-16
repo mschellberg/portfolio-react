@@ -11,7 +11,7 @@ function About () {
             <Col xs={7} md={7}>
                 <h4>Hello, I'm</h4>
                 <h2>Melanie Schellberg</h2>
-                <p className="about-description">Im a Philadelphia based full stack developer.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className="about-description">Im a Philadelphia based full stack developer and graduate of the University of Pennsylvania Coding Boot Camp. A background in retail provided exceptional skills in verbal communication, working collaboratively to reach goals, and a customer service mindset. Eager to contribute developed knowledge in a front end development role. Skilled in front and back end technologies. Adaptable and driven with strong work ethic and ability to thrive in team based or individually motivated settings. </p>
             </Col>
             </Row>
         </div>

@@ -7,7 +7,7 @@ function Resume () {
         </div>
         </div>
             <div className="row justify-content-center">
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-12 education">
             <h3>Education</h3><br></br>
             <h5>
                 Penn LPS Coding Bootcamp
@@ -34,7 +34,7 @@ function Resume () {
                 05/2015
             </p>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-12 projects">
             <h3>Projects</h3><br></br>
             <h5>
             Workday Planner

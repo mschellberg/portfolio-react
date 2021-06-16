@@ -143,8 +143,9 @@ h3 {
     padding: 3%;
     
 }
-.col-4 {
-    border-left: 2px solid #FFC6B8;
+div.col-lg-4.col-md-6.col-sm-12.education {
+    border-right: 2px solid #FFC6B8;
+    margin-right:10px;
 }
 /* Footer */
 svg {
@@ -160,3 +161,15 @@ svg {
     position: absolute;
     width:100%;
 }
+@media only screen and (max-width: 800px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    div.col-lg-4.col-md-6.col-sm-12.education {
+        border-bottom: 2px solid #FFC6B8;
+        border-right:none;
+        margin-bottom:10px;
+    }
+  }
