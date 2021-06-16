@@ -18,12 +18,13 @@ sendEmail(event){
 const emailUrl="https://cyonbbcqpf.execute-api.us-east-1.amazonaws.com/sendEmail";
 const requestOptions = {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json','Access-Control-Allow-Origin':'*'},
+    headers: { 'Content-Type': 'application/json'},
+    mode:"no-cors",
     body: JSON.stringify(data)
 };
 const response=fetch(emailUrl, requestOptions)
-    .then(response =>{console.log(`Response is ${response}`)})
-    .catch(err =>{ console.log(err)});
+    .then(response =>{alert("Your message has been successfully sent")})
+    .catch(err =>{alert("For technical reasons were not able to sent the email")});
 }
 
 render(){
